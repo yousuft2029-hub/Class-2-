@@ -16,6 +16,7 @@ app = FastAPI(
     description="This is an example of using FastAPI"
 )
 
+
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
